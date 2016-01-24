@@ -6,13 +6,14 @@ using System.Linq;
 using System.Reflection;
 using NDesk.Options;
 
-namespace ImageScaler
+namespace Downsize
 {
     internal class Program
     {
+        private static string _appName;
         public static string AppName
         {
-            get { return Assembly.GetExecutingAssembly().GetName().Name; }
+            get { return _appName ?? (_appName = Assembly.GetExecutingAssembly().GetName().Name); }
         }
 
         private static void Main(string[] args)

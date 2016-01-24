@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Drawing.Imaging;
 using System.Linq;
 
-namespace ImageScaler
+namespace Downsize
 {
     public static class ImageHelper
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace ImageScaler
+namespace Downsize
 {
     public static class LoggingService
     {

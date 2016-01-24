@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Configuration;
 
-namespace ImageScaler
+namespace Downsize
 {
     public class ImageConfigSection : ConfigurationSection
     {

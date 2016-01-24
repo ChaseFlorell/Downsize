@@ -1,7 +1,7 @@
 ﻿using System.Drawing;
 using System.Drawing.Imaging;
 
-namespace ImageScaler
+namespace Downsize
 {
     public static class ImageExtensions
     {
