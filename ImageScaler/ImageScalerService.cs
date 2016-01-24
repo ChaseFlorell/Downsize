@@ -4,7 +4,7 @@ using System.Drawing.Drawing2D;
 
 namespace ImageScaler
 {
-    public class ImageScaler
+    public class ImageScalerService
     {
         public Image Scale(int newWidth, int newHeight, string stPhotoPath)
         {
@@ -12,15 +12,6 @@ namespace ImageScaler
             {
                 var sourceWidth = imgPhoto.Width;
                 var sourceHeight = imgPhoto.Height;
-
-                //Consider vertical pics
-                if (sourceWidth < sourceHeight)
-                {
-                    var buff = newWidth;
-
-                    newWidth = newHeight;
-                    newHeight = buff;
-                }
 
                 const int sourceX = 0;
                 const int sourceY = 0;
@@ -47,7 +38,6 @@ namespace ImageScaler
 
 
                 var bmPhoto = new Bitmap(newWidth, newHeight);
-
                 bmPhoto.SetResolution(imgPhoto.HorizontalResolution,
                     imgPhoto.VerticalResolution);
 
