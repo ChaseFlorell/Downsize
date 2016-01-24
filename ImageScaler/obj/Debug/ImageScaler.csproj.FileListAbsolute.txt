@@ -1,7 +1,0 @@
-C:\Dev\ImageScaler\ImageScaler\bin\Debug\ImageScaler.exe.config
-C:\Dev\ImageScaler\ImageScaler\bin\Debug\ImageScaler.exe
-C:\Dev\ImageScaler\ImageScaler\bin\Debug\ImageScaler.pdb
-C:\Dev\ImageScaler\ImageScaler\bin\Debug\NDesk.Options.dll
-C:\Dev\ImageScaler\ImageScaler\obj\Debug\ImageScaler.csprojResolveAssemblyReference.cache
-C:\Dev\ImageScaler\ImageScaler\obj\Debug\ImageScaler.exe
-C:\Dev\ImageScaler\ImageScaler\obj\Debug\ImageScaler.pdb
