@@ -40,7 +40,7 @@ namespace Downsize
                     v => format = ImageHelper.ParseImageFormat(v)
                 },
                 {
-                    "o|out|outpath=", "Path to save out the image",
+                    "o|out|outpath=", "Path to save out the image\ndefaults to current directory of downsize.exe",
                     v => outPath = v
                 },
                 {
@@ -56,7 +56,7 @@ namespace Downsize
                     v => log = v != null
                 },
                 {
-                    "s|silent|quiet|q", "Don't write out to console",
+                    "s|q|silent|quiet", "Don't write out to console",
                     v => quiet = v != null
                 },
                 {
@@ -68,7 +68,7 @@ namespace Downsize
                     v => verbose = v != null
                 },
                 {
-                    "?|h|help", "show this message and exit",
+                    "?|h|help", "show help message and exit",
                     v => helpRequested = v != null
                 }
             };
